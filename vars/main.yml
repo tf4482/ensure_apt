@@ -1,0 +1,7 @@
+---
+apt_packages:
+  - git
+  - curl
+  - btop
+  - net-tools
+  - wget

@@ -1,0 +1,7 @@
+---
+- name: Ensure apt packages are installed
+  become: yes
+  ansible.builtin.apt:
+    name: "{{ apt_packages }}"
+    state: present
+    update_cache: yes
